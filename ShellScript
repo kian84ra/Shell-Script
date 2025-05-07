@@ -1,0 +1,10 @@
+# Shell Script 
+This repository contains my daily practice, exercises, and notes while learning Shell scripting (Bash) on Linux.
+
+# Topics Covered
+     Variable declarations and arithmetic operations  
+     Conditional statements (`if`, `else`, `elif`, `case`)  
+     Loop structures (`for`, `while`, `until`)  
+     Functions and argument parsing  
+     File handling (searching, filtering, permission checks)  
+     Real-world exercises (log analysis, CSV parsing) 
