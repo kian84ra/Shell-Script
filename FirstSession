@@ -1,0 +1,54 @@
+# Log Script
+  Today, I learned the basics and intermediate concepts of Shell Scripting (Bash). Here’s a breakdown of what I covered:
+      Variables and Arithmetic Operations:
+        How to declare and use variables
+        Different ways to perform arithmetic in Bash
+      Loops (for, while, until):
+        Repeating commands using loops
+        Using conditions inside loops
+      Conditional Statements:
+        Using if, elif, else, and case to make decisions
+      Functions:
+        How to define and call functions
+        How to pass arguments to functions
+      File Handling and Search:
+        Finding files with find
+        Checking size and permissions
+        Filtering files by size or type
+
+
+# Example 
+```# Variable assignment
+      num1=10
+      num2=5
+
+  # Using let
+    let "sum = num1 + num2"
+    echo $sum  # Output: 15
+
+  # Using expr
+    echo $(expr $num1 + $num2)  # Output: 15
+
+  # Using arithmetic expansion
+    echo $((num1 - num2))  # Output: 5
+
+```
+    age=20
+    if [ $age -ge 18 ]; then
+      echo "Adult"
+    else
+      echo "Minor"
+    fi
+```
+    greet() {
+      echo "Hello, $1!"
+    }
+
+    greet "Ali"
+    # Output: Hello, Ali!
+
+  # Find .log files larger than 10MB
+    find /var/log -type f -name "*.log" -size +10M > large_logs.txt
+
+
+Practical Task: CSV Analysis
